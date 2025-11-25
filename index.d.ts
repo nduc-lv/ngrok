@@ -162,6 +162,11 @@ declare module "ngrok" {
        * Callback called when ngrok host process is terminated.
        */
       onTerminated?: () => any;
+
+       /**
+       * Custom startArgs for electron
+       */
+      startArgs?: string;
     }
 
     interface Metrics {
