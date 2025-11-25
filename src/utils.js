@@ -77,6 +77,7 @@ const globalProperties = [
   "onLogEvent",
   "onStatusChange",
   "onTerminated",
+  "startArgs"
 ];
 
 function optsFromAvailable(opts, availableProperties) {
